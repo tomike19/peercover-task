@@ -11,12 +11,12 @@ import LoginPage from "./pages/login/login.page";
 function App() {
   const [user, setUser] = useState(null);
 
-  useEffect(() => {
-    const user = jsCookie.get("user");
-    if (user) {
-      setUser(JSON.parse(user));
-    }
-  }, []);
+//   useEffect(() => {
+//     const user = jsCookie.get("user");
+//     if (user) {
+//       setUser(JSON.parse(user));
+//     }
+//   }, []);
 
   useEffect(() => {
     if (user) {

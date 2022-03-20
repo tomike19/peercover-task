@@ -1,0 +1,29 @@
+.input {
+    height: 57px;
+    border: 2px solid #6e6c6d;
+    outline: none;
+    width: 100%;
+    padding: 1.3rem;
+}
+
+.password-input-wrap {
+    position: relative;
+    height: 57px;
+    border: 2px solid #6e6c6d;
+}
+    .password-input {
+        border: none;
+        width: 92%;
+        outline: none;
+        padding: 0 1.5rem;
+        height: 96%;
+        margin-left: 3px;
+    }
+    span > i {
+        cursor: pointer;
+    }
+
+
+   .error-size{
+        font-size:12px;
+    }

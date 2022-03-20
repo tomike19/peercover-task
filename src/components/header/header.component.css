@@ -1,0 +1,232 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Roboto+Condensed:wght@300;400&family=Roboto:wght@400;500&display=swap");
+
+/* DEFAULT LAYOUT STYLES*/
+
+.Default-layout {
+  /* position: fixed; */
+  display: flex;
+}
+.Default-layout-section {
+  width: 16rem;
+  height: 100vh;
+  background: #fff;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  overflow-x: hidden;
+  box-shadow: 0px 50px 40px rgba(36, 0, 70, 0.1);
+}
+
+.dashboard-navigation__brand {
+  width: 16rem;
+  display: block;
+  padding: 1.4375rem 7rem 0rem 7rem;
+  font-size: 40px;
+  color: #00932b;
+  font-weight: 600;
+  font-family: Roboto;
+}
+
+.dashboard-navigation-list-item {
+  margin: -20px 1rem 0rem 1rem;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  grid-column-gap: 1.125rem;
+  cursor: pointer;
+}
+.dashboard-navigation-link {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  padding: 0.75rem 1rem;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  text-decoration: none;
+}
+
+.dashboard-navigation-list-item > p {
+  color: #afacab;
+  font-family: Roboto;
+  margin: 0;
+}
+
+a {
+  color: #c45656;
+  border-radius: 0.25rem;
+  text-decoration: none;
+}
+
+/* DASHBOARD SECTION STYLES */
+.Dashboard-section {
+  display: flex;
+  width: 100%;
+}
+
+.dashboard-right-content {
+  width: 100%;
+}
+.Dashboard-navbar-section {
+  background: fff;
+  display: flex;
+  justify-content: space-between;
+}
+
+.Dashboard-navbar-logo {
+  display: flex;
+  grid-column-gap: 1.5rem;
+  margin-left: 20px;
+}
+
+.Dashboard-navbar-logo > p {
+  color: #00932b;
+  font-size: 1rem;
+  font-weight: 600;
+  font-family: Roboto;
+  letter-spacing: 2px;
+  padding-top: 12px;
+  margin: 0;
+}
+.navigation-toggle {
+  margin-top: 14px;
+  color: #c45656;
+  cursor: pointer;
+}
+
+.navigation-notification {
+  margin-top: 3px;
+  color: #757575;
+}
+.admin-profile {
+  margin-top: 10px;
+  display: flex;
+  gap: 0.5rem;
+  margin-right: 30px;
+}
+.admin-details {
+  display: flex;
+  gap: 0.5rem;
+}
+.admin-details > p {
+  margin-top: 3px;
+}
+.admin-image {
+  width: 30px;
+  height: 30px;
+  border-radius: 90px;
+}
+
+.dashboard-details {
+  height: 100vh;
+  background: #ecffeb;
+}
+
+.dashboard-table {
+  width: 80%;
+  margin: auto;
+}
+
+.dashboard-table > h1 {
+  color: #00932b;
+  padding-top: 15px;
+  font-family: Roboto;
+  font-weight: normal;
+  font-size: 1.5rem;
+}
+.dashboard-button-flex {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.dashboard-button {
+  background-color: #00932b;
+  color: white;
+  display: flex;
+  gap: 0.5rem;
+  border: none;
+  outline: none;
+  border-radius: 20px;
+  padding-left: 10px;
+  cursor: pointer;
+  font-family: roboto;
+}
+.dashboard-button > p {
+  font-size: 0.9rem;
+  letter-spacing: 1px;
+  font-family: Roboto;
+  margin-top: 10px;
+}
+.dashboard-plus-button {
+  padding-top: 4px;
+  font-size: 1.5rem;
+}
+.dashboard-table-details {
+  width: 100%;
+  background-color: #fff;
+  height: 50vh;
+  margin-top: 30px;
+  box-shadow: 0px 50px 40px rgba(36, 0, 70, 0.1);
+  overflow-x: auto;
+}
+
+.search-input {
+  margin-top: 40px;
+  width: 50%;
+  border: none;
+  border-bottom: 1px solid #cfcfcf;
+}
+.dashboard-search-input {
+  display: flex;
+  justify-content: flex-end;
+}
+.search-icon {
+  position: relative;
+  right: 30px;
+  top: 30px;
+}
+
+::placeholder {
+  font-size: 1rem;
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 30px;
+  padding: 0px 20px 0px 20px;
+  overflow-x: auto;
+}
+
+tr {
+  border-bottom: 1px solid #dddddd;
+}
+td {
+  text-align: left;
+  padding: 10px;
+  color: #a6a891;
+  padding: 1.25rem;
+}
+th {
+  text-align: left;
+  padding: 10px;
+  color: #a6a891;
+}
+
+.trash-icon {
+  color: #c45656;
+}
+
+
+@media screen and (max-width:768px){
+  .Default-layout-section {
+    display: none;
+  }
+  .dashboard-details {
+    height: 120vh;
+    background: #ecffeb;
+  }
+}
+@media screen and (min-width:768px) and (max-width: 1200px) {
+  .Default-layout-section {
+    display: none;
+  }
+}
