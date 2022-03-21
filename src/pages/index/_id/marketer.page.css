@@ -1,0 +1,53 @@
+.form-details-title {
+  color: #00932b;
+  padding-top: 15px;
+  font-family: Roboto;
+  font-weight: normal;
+  font-size: 1.5rem;
+  padding-left: 40px;
+}
+
+.form-input {
+  margin-top: 10px;
+  width: 150%;
+  border: none;
+  height: 50px;
+}
+
+.label-title {
+  color: #7e776e;
+}
+.view-consultant-form {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.update-marketer-button {
+  margin-left: 12rem;
+  width: 75%;
+}
+.edit-marketing-profile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: green;
+  width: 70px;
+  height: 70px;
+  border-radius: 40px;
+  margin-left: 80px;
+}
+@media screen and (max-width: 960px) {
+  .Default-layout-section {
+    display: none;
+  }
+  .update-marketer-button {
+    width: 70%;
+  }
+  form {
+    margin: 0px;
+  }
+  .view-consultant-form {
+    display: flex;
+    flex-direction: column;
+  }
+}

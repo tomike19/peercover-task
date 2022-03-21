@@ -57,8 +57,8 @@
 }
 
 .dashboard-details {
-  height: 100vh;
   background: #ecffeb;
+  height: 120vh;
 }
 
 .dashboard-table {
@@ -99,7 +99,7 @@
   margin-top: 10px;
 }
 .dashboard-plus-button {
-  padding-top: 4px;
+  padding-top: 2px;
   font-size: 1.5rem;
 }
 .dashboard-table-details {
