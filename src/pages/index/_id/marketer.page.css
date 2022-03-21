@@ -36,6 +36,14 @@
   border-radius: 40px;
   margin-left: 80px;
 }
+.profile-text {
+  border-bottom: 2px solid #c45656;
+  width: 8%;
+  color: #7e776e;
+  font-size: 1rem;
+  margin-top: 35px;
+  margin-left: 40px;
+}
 @media screen and (max-width: 960px) {
   .Default-layout-section {
     display: none;

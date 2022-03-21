@@ -41,6 +41,10 @@ const MarketerPage = (props) => {
           <Header user={user} />
           <div className="dashboard-details">
             <h1 className="form-details-title">View Marketing consultant</h1>
+            <div className="edit-marketing-profile text-center">
+              <p className="edit-marketing-name">A.A</p>
+            </div>
+            <p className="profile-text">Profile</p>
             <Formik
               onSubmit={(values, helpers) => {
                 helpers.setSubmitting(true)
@@ -77,10 +81,6 @@ const MarketerPage = (props) => {
                     onSubmit={handleSubmit}
                     style={{ width: '100%', maxWidth: '400px', margin: 'auto' }}
                   >
-                    <div className="edit-marketing-profile">
-                      <p className="edit-marketing-name">A.A</p>
-                    </div>
-                      <p className="profile-text">Profile</p>
                     <div className="view-consultant-form">
                       <label htmlFor="name " className="label-title">
                         Firstname
