@@ -58,7 +58,7 @@
 
 .dashboard-details {
   background: #ecffeb;
-  height: 120vh;
+  height: auto;
 }
 
 .dashboard-table {
@@ -163,8 +163,21 @@ th {
     display: none;
   }
   .dashboard-details {
-    height: 120vh;
     background: #ecffeb;
+  }
+  .dashboard-button {
+    background-color: #00932b;
+    color: white;
+    display: flex;
+    gap: 0.9rem;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    width: 100%;
+    padding: 0.63rem;
+    cursor: pointer;
+    font-family: roboto;
+    font-weight: normal;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1200px) {
